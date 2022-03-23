@@ -1,0 +1,21 @@
+{
+  "logger": {
+    "title": "Remote Sync"
+  },
+  "transport": "ftp",
+  "uploadOnSave": true,
+  "useAtomicWrites": true,
+  "deleteLocal": false,
+  "hostname": "s463.sureserver.com",
+  "port": "21",
+  "ignore": [
+    ".remote-sync.json",
+    ".git/**",
+    ".htaccess",
+    ".ftpconfig"
+  ],
+  "username": "jardi",
+  "password": "nadege6001",
+  "watch": [],
+  "target": "/"
+}
